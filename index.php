@@ -18,7 +18,7 @@
 	<meta name="author" content="PAN Medcial Ltd.">
 
   	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<meta name="viewport" content="width=960px,initial-scale=1">
   	
   	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   	
