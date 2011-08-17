@@ -39,9 +39,11 @@
 
   	<div id="container">
 		<header>
-			<img class="logo" src="img/logo.png" width="220" height="103" alt="Logo">
-			<?php echo(navigation("about us")) ?> <!-- navigation menu -->
-    	</header>
+      <div id="positiondiv">
+  			<img class="logo" src="img/logo.png" width="220" height="103" alt="Logo">
+  			<?php echo(navigation("about us")) ?> <!-- navigation menu -->
+      </div>
+  	</header>
 
 		<div id="main" role="main">
 			<div id="top_image">

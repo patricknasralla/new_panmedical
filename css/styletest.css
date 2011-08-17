@@ -229,27 +229,34 @@ body {  background-color: #FFF;}
 
 #image {
   width: 960px;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
 
 #main {
-/*  position: relative;
-  z-index: 5;*/
-  background-color: #F6F9F9;
+  position: relative;
+  z-index: 5;
   width: 700px;
   margin: 0px 10px 40px 10px;
+  padding-top:315px;
 }
 
-#header {
-/*  position: relative;
-  z-index: 10;*/
-  width: 220px;
+#header { 
   float: right;
+  width: 230px;
+}
+
+#foo {
+  position: fixed;
+  z-index: 10;
+  width:200px;
   border-right: 10px solid #3C425F;
   text-align: right;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 18px 0px;    
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.8);  
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#CCFFFFFF',EndColorStr='#CCFFFFFF');
 }
 
 nav li {

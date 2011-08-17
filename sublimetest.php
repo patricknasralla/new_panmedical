@@ -38,22 +38,27 @@
 <body>
 
 	<div id="content">
-	<img id="topimg" src="img/placeholder.png" alt="Placeholder Image">
+		<div id="image">
+			<img id="topimg" src="img/placeholder.png" alt="Placeholder Image">
+		</div>
 		<div id="header">
-			<img src="img/logo.png" alt="PAN Medical Logo">
-			<?php echo(navigation("about us")) ?> <!-- navigation menu -->
+			<div id="foo">	
+				<img src="img/logo.png" alt="PAN Medical Logo">
+				<?php echo(navigation("about us")) ?> <!-- navigation menu -->
+			</div>	
 		</div>
 		<div id="main">
-			<h1>Main Title.</h1>
+			<h1>InterV.</h1>
 			<div class="section">
 			<p>This is some paragraph text which references the main title. It can be any length but I'm going to settle with something like this for the purposes of this demonstration.</p>
 			</div>	
-			<h2>Sub-Heading.</h2>
+			<h2>Features.</h2>
 			<div class="section">
-			<p>This is a paragraph that goes with the subheading. The final paragraph should be the "clearfix" class so that the border of the header's float goes to the bottom of the final paragraph of the section.</p>
-			<p>Wow. That was somewhat wordy. I think I should possibly go and rewrite that las paragraph without quite so much use of the word "paragraph". Oh, God. I'm doing it again.</p>
-			<p>This is the last paragraph. As mentioned before, this is styled with the clearfix class. You can check this in the HTML if you don't believe me. Moron.</p>
-			<p>In fact, now that I've actually spent ages doing this, I've realised that the above reasoning is absolutely bollocks. Oh well.</p>
+			<p>This is a paragraph that goes with the subheading. This will be a description of the product and will go a little something like this:</p>
+			<p>This InterV from PAN Medical is so truly astounding that we almost decided not to release it as a product but rather present it to the United Nations as a method for the cessation of violence throughout the world.</p>
+			<p>"How?" you ask. Well, the minds at PAN Medical realised early on that most of the world's problems stem from the simple fact that back irregularities cause most people to become cranky. It is this crankiness and not the more widely held view that religious and territorial disputes cause the world's woes.</p>
+			<p>Using our new, ground-breaking and in no way stolen technique; the InterV will be able to cause instant cessation of back pain and single handedly will save the world from inevitable desruction.</p>
+			<p>In fact, now that I've actually spent ages doing this, I've realised that the above reasoning is absolutely bollocks. Oh well. It's not like anyone reads placeholder text anyway...</p>
 			</div>
 			<div class="clear"></div>
 		</div> 
