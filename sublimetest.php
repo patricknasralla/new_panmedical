@@ -38,12 +38,12 @@
 <body>
 
 	<div id="content">
+	<img id="topimg" src="img/placeholder.png" alt="Placeholder Image">
 		<div id="header">
 			<img src="img/logo.png" alt="PAN Medical Logo">
 			<?php echo(navigation("about us")) ?> <!-- navigation menu -->
 		</div>
 		<div id="main">
-			<img src="img/placeholder.png" alt="Placeholder Image">
 			<h1>Main Title.</h1>
 			<div class="section">
 			<p>This is some paragraph text which references the main title. It can be any length but I'm going to settle with something like this for the purposes of this demonstration.</p>
