@@ -39,7 +39,7 @@
 
   	<div id="container">
 		<header>
-      <div id="positiondiv">
+      <div id="foo">
   			<img class="logo" src="img/logo.png" width="220" height="103" alt="Logo">
   			<?php echo(navigation("about us")) ?> <!-- navigation menu -->
       </div>

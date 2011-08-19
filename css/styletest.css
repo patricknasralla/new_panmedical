@@ -261,6 +261,7 @@ body {  background-color: #FFF;}
 
 nav li {
   font-size:18px;
+  font-weight:bolder;
   color: #3C425F;
   line-height:21px;
 }
@@ -282,6 +283,7 @@ nav a:hover {
 
 nav .current {
   text-decoration:underline;
+  color: #5C627F;
 }
 
 #main img {
